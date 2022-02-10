@@ -7,4 +7,3 @@ func SumArray(arr [10]int) int {
 	}
 	return sum
 }
-
