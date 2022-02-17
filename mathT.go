@@ -24,7 +24,7 @@ func SumVariadic(vrd ...int) int {
 	return sum
 }
 
-//for range
+//for range u
 func SumSli_Range(s []int) int {
 	var sum int
 	for i, v := range s {
