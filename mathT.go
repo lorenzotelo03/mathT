@@ -14,11 +14,10 @@ func SumSlice(s []int) int {
 	}
 	return sum
 }
-func SumVariadic(vrd ...int)int{
+func SumVariadic(vrd ...int) int {
 	var sum int
 	for i := 0; i < len(vrd); i++ {
 		sum += vrd[i]
 	}
 	return sum
 }
-
